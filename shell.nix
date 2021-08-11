@@ -5,5 +5,5 @@ let
     globalBuildInputs = with pkgs; [ go rustc wasm wasm-pack cargo ];
     inherit nodeEnv;
   };
-in nodePackages.shell
-
+in 
+  nodePackages.shell 
